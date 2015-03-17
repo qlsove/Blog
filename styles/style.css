@@ -1,0 +1,41 @@
+       .hello {float: right; font-size: 13px; line-height: 18px; font-weight: bold; margin-right: 8px;}
+       .logout {float: right; height: 18px; line-height: 18px; padding: 0 4px; color: #fff; background-color: #f00; text-decoration: none; border-radius: 3px;margin-right: 3px;}
+       
+       body {margin: 0; min-width: 840px; padding-top: 10px; background: #fff;}
+       .wrapper {width: 800px; min-height: 600px; margin: 0 auto; border-radius: 15px; font: 13px Arial, sans-serif; background-color: #FFF;}
+       .header {height: 100px; border-bottom: 2px solid #A4D3EE; background: #B0E2FF; border-radius: 15px;}
+       .logo {float: left; margin: 10px 0 0 20px; }
+
+       .search {position: absolute; top: -18px; left: 5px; width: 190px;}
+       .search-btn {float: left; height: 18px; padding: 0 4px; line-height: 19px; color: #fff; background-color: #06089D; border: none; border-radius: 3px;}
+       .search-input {float: left; width: 100px; height: 16px; border: 1px solid #000; border-radius: 3px; outline: none; 
+              padding: 0 5px; font: 12px Arial, sans-serif; color: #333; background-color: #fff; margin-right: 8px;}
+
+       .login {float: right; width: 370px; margin: 10px 28px 0 0; }      
+       .login-input {float: left; width: 120px; height: 16px; border: 1px solid #000; border-radius: 3px; outline: none; 
+              padding: 0 5px; font: 12px Arial, sans-serif; color: #333; background-color: #fff; margin-right: 8px;}
+        .login-btn {float: left; height: 18px; padding: 0 4px; line-height: 19px; color: #fff; background-color: #06089D; border: none; border-radius: 3px;}
+
+        .del {float: left; height: 18px; padding: 0 4px; line-height: 19px; color: #fff; background-color: #06089D; border: none; border-radius: 3px;}
+
+       .nav {float: right; position: relative; color: #f00; margin: height: 30px; padding:15px 25px 0 0; }
+       .nav a {float: left; color: #FFFF00; margin: 0 5px; padding: 0 40px; font-size: 13px; background-color: #551A8B; 
+              padding: 10px 15px; text-decoration: none; font-weight: bold; border-radius: 5px;}
+       .nav a:hover {background: #00BFFF; color: #f00}
+       .nav .active-link {color:#fff;}
+       .nav .menu {color:#FFFF00;background-color: #000066;}
+
+       .content {padding: 20px; background: #D1EEEE; border-radius: 15px;}
+
+       .post-content {border-radius: 10px; padding: 5px 20px 10px; margin-bottom: 20px; box-shadow: 1px 2px 5px 1px #222; font-size: 15px; background: #BBFFFF;}
+       .post-content:hover {background-color: #D7FF91;}
+       .post-content {transition: background-color 2s linear; white-space: pre-wrap; }
+       .blog-title {text-align: center; margin: 0 0 15px;}
+       .blog-footer {clear: both;}
+       
+       .cell-title {display: inline-block;  white-space: nowrap; overflow-x: hidden; text-overflow: ellipsis; padding:5px 0}
+       #table-title {background: #4682B4; padding:5px 0}
+       table tr:nth-child(even) {background: #FFFFFF;}
+       table tr:nth-child(odd) {background: #A9A9A9;}
+       .cell-img {background: #FFFFFF;}
+    
