@@ -27,7 +27,7 @@
 		deleteImg ($_GET);
 		break;
 
-		case (empty($_COOKIE['userLoginOK']) && (isset($_GET['chgId']) || isset($_POST['chgId']))):
+		case (!empty($_COOKIE['userLoginOK']) && (isset($_GET['chgId']) || isset($_POST['chgId']))):
 		changePost ($_POST, $_GET, $_FILES, $categories, $links);
 		break;
 
